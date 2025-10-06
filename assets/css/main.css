@@ -45,7 +45,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -53,6 +53,13 @@ section, summary, time, mark, audio, video {
 	font-family: 'Alegreya Sans', sans-serif;
 	font: inherit;
 	vertical-align: baseline;}
+
+summary {
+  display: flex; /* Makes the summary content a flex container */
+  align-items: center; /* Vertically centers the icon and text */
+  gap: 8px; /* Adds a small gap between the icon and text */
+  cursor: pointer; /* Indicates it's clickable */
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
