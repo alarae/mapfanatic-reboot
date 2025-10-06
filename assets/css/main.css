@@ -61,6 +61,10 @@ summary {
   cursor: pointer; /* Indicates it's clickable */
 }
 
+span.iconsleft {
+	float: left;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
